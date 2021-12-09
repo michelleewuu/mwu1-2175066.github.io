@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>HTML Tags Builder</h1>
+        <style>
+            .puppies {
+                position: relative;
+                text-align: center;
+                color:black;
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .padding {
+                padding: 20px;
+            }
+            .border {
+                border-style: dotted
+            }
+        </style>
+        <link rel="stylesheet" href="anExternal.css">
+    </head>
+    
+    <body>
+        <p style = "font-family:'Courier New', Courier, monospace">
+            
+            Everyone who knows me to an extent is usually familiar with my favorite
+            dog breed: the golden retriever. I could talk about this breed for hours,
+            despite the unfortunate fact of never owning one (because, well parents).
+            Just look at the pictures below, how could you ever say no to that face?
+            <img src = "golden.jpeg" float: right width = "50" height = "50" />
+        </p>
+        
+        <p style = "font-family:'Times New Roman', Times, serif">
+            <img src = "goldenpuppies.jpeg" float: left width = "50" height = "50" />
+            Allow me to tell you a bit about what makes golden retrievers the best dog
+            breed to exist. For one, they are one of the most gentle and compassionate
+            breeds. Man's best friend, for real. Because of their temperament, their
+            desire to always please their owners makes them easy to train and very
+            obedient pups when well-trained. In short, golden retrievers are known as
+            the best family dog.
+        </p>
+
+        <div class = "puppies">
+            <img src = "christmaspup.jpeg" width = 400 height = 450>
+            <div class = "centered">
+                <p style = "font-size: 30px; font-family:'Times New Roman', Times, serif">
+                    Look how cute!
+                </p>
+            </div>
+        </div>
+
+        <h2>image with padding</h2>
+        <div class = "padding">
+            <img src = "twopuppies.jpeg" width = 300 height = 150>
+        </div>
+
+        <div class = "border">
+            <p>Want a golden retriever puppy now?</p>
+        </div>
+
+
+        <h3>This is a floated element.</h3>
+        
+        <h4>An element with rounded corners</h4>
+            <p id="rcorners">
+                Hey look! Rounded corners :)
+            </p>
+    </body>
+</html>

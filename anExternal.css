@@ -1,0 +1,12 @@
+h3 {
+    float: right;
+    color: blueviolet;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#rcorners {
+    border-radius: 25px;
+    background-color:powderblue;
+    padding: 20px;
+    width: 200px;
+}
